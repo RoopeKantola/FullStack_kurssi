@@ -88,7 +88,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Phonebook</h1>
+      <h2>Phonebook</h2>
       <Filter value={newFilterValue} onChange={handleFilterChange}/>
       <h3>Add a new</h3>
       <Form 
