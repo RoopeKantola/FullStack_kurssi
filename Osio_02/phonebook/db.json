@@ -21,14 +21,19 @@
       "id": 4
     },
     {
-      "name": "Test person",
-      "number": "99",
-      "id": 7
+      "name": "Coolio",
+      "number": "1994",
+      "id": 8
     },
     {
-      "name": "Coolio",
-      "number": "1995",
-      "id": 8
+      "name": "Fishman",
+      "number": "0400-111222",
+      "id": 9
+    },
+    {
+      "name": "Bananus Hippledick",
+      "number": "045-854726",
+      "id": 10
     }
   ]
 }

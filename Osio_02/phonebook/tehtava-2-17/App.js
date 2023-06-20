@@ -5,6 +5,7 @@ import Person from './components/Person'
 import personService from './services/persons'
 import Notification from './components/Notification'
 import Error from './components/Error'
+import { waitFor } from '@testing-library/react'
 
 const App = () => {
 
@@ -143,7 +144,7 @@ const App = () => {
 
   const personsToShow = showAll
     ? persons
-    : persons.filter(person => person.name.toLowerCase().includes(newFilterValue))
+    : persons.filter(person => person.name.includes(newFilterValue))
 
   return (
     <div>
