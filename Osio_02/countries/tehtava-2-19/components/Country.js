@@ -1,6 +1,6 @@
 import Language from "./Language"
 
-const Country = ({country, fullInfo, capital, area, languages, flag, clickHandler, temperature, icon, wind}) => {
+const Country = ({country, fullInfo, capital, area, languages, flag, clickHandler}) => {
 const langArray = Object.values(languages)
 
     if (!fullInfo) {
@@ -25,14 +25,6 @@ const langArray = Object.values(languages)
                 </div>
                 <div>
                     <img src={flag['png']}></img>
-                </div>
-                <div>
-                    <h3>
-                        Weather in {capital[0]}
-                    </h3>
-                    temperature {temperature} Celcius <br/>
-                    <img src={`https://openweathermap.org/img/wn/${icon}@2x.png`}></img> <br/>
-                    wind {wind} m/s
                 </div>
         </div>
         )
